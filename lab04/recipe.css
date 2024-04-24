@@ -1,0 +1,62 @@
+h1{
+    color:rgb(255, 0, 60);
+    font-size :2em;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:5px 5px 5px black;
+    border-radius:10px;
+    
+    
+}
+h2{
+    color:brown;
+    font-size:large;
+
+}
+p{
+    background-color: pink;
+    text-transform:uppercase;
+    
+}
+body{
+    font-size:small;
+    font-style: italic;
+    background-image: url(images/les2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+    
+    
+}
+li{
+    margin: 5px;;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger
+    
+}
+img{
+    height: 400px;
+    width: 300px;
+    display:block;
+    margin:0%;
+    padding:0%;
+}
+.container{
+       background:whitesmoke;
+       width:80%;
+       margin:auto;
+       
+       
+}
+
+.list{
+    display:flex;
+    display:grid;
+    grid-template-columns:30% auto;
+    grid-column-gap:50px;
+
+}
+
+
