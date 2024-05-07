@@ -1,0 +1,58 @@
+.container{
+   
+    display:grid;
+    grid-template-columns:200px;
+    grid-column-gap:50px;
+
+
+}
+.header{
+    background-color: black;
+    color:white;
+    margin:50px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    width:80%;
+    margin:auto;
+}
+body{
+    font-size:medium;
+    font-style: italic;
+    background-image: url(QOT2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+a:link{
+    color:purple;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+a:hover{
+    background-color:black;
+    font-size :1.1em;
+}
+a:visited{
+    color:darkblue;
+}
+@media only screen and (min-width:768px){
+    body{
+        display: flex;
+        display: grid;
+       
+
+    }
+
+    
+}
+
+    
+
+    
+
+
+
+
